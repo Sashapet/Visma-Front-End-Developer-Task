@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #bad1e0;
+}
+.todo-container {
+  width: 40%;
+  margin: 0 auto;
+}
+.title {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0px;
+  color: #f53178;
+}
+.add-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#todo {
+  width: 45%;
+  height: 50px;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+#date {
+  width: 35%;
+  height: 50px;
+}
+#add-btn {
+  width: 15%;
+  height: 50px;
+  font-size: 20px;
+}
+.todo {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+.todo:nth-child(even) {
+  border-bottom: none;
+}
+.todo:nth-child(even) {
+  border-top: none;
+}
+.description {
+  width: 45%;
+  word-wrap: break-word;
+}
+.timeLeft {
+  width: 35%;
+}
+.interactDiv {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.deleteBtn {
+  border: none;
+  color: #f53178;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
